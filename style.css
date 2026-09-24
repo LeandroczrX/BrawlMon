@@ -1,0 +1,183 @@
+@import url('https://fonts.googleapis.com/css2?family=Lilita+One&display=swap');
+
+
+body {
+    background-image: url('https://i.pinimg.com/1200x/fe/50/5c/fe505c47473807a7bafc48ccfece4829.jpg');
+    background-size: cover;
+    background-position: center;
+    font-family: 'Lilita One', cursive;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    color: white;
+    padding: 30px;
+    
+}
+
+.box {
+    width: 900px;
+    padding: 20px;
+    position: relative;
+    margin-top: 60px;
+}
+
+.topo {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+
+.nome {
+    background: #00c5f1;
+    border: 4px black;
+    padding: 10px 40px;
+    font-size: 32px;
+    box-shadow: 4px black;
+    gap: 10px;
+    border-radius: 10px;
+    margin-right: auto;
+}
+
+.nome span {
+    display: inline-block;
+}
+
+.icone {
+    width: 90px;
+    height: 90px;
+    align-items: center;
+    display: flex;
+
+}
+
+.icone img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    align-items: center;
+}
+
+.meio {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.foto {
+    width: 50%;
+    height: 400px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: radial-gradient(circle, #01c4eb 0%, transparent 64%);
+}
+
+.foto img {
+    width: 110%;
+    max-width: 150px;
+}
+
+.status {
+    width: 45%;
+    background: #2fb3ff;
+    border: 4px black;
+    border-radius: 10px;
+    padding: 15px;
+}
+
+.linha {
+    display: flex;
+    align-items: center;
+    background: black;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
+
+.nome-status {
+    flex: 1;
+    font-size: 20px;
+    color: white;
+}
+
+.valor {
+    font-size: 28px;
+    color: #ffcc00;
+    margin-right: 8px;
+}
+
+.info {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+}
+
+.caixa {
+    border: 4px black;
+    border-radius: 10px;
+    padding: 40px 20px 20px;
+    position: relative;
+    font-size: 24px;
+    text-align: center;
+}
+
+
+.label {
+    position: absolute;
+    top: -15px;
+    left: 10px;
+    font-size: 20px;
+}
+
+.busca {
+    position: absolute;
+    top: -60px;
+    left: 0;
+    width: 100%;
+    text-align: center;
+}
+
+input {
+    padding: 10px;
+    font-family: 'Lilita One', cursive;
+    font-size: 18px;
+    border: 3px black;
+    border-radius: 5px;
+    width: 250px;
+}
+
+button {
+    padding: 10px 20px;
+    font-family: 'Lilita One', cursive;
+    font-size: 18px;
+    background: #ffcd07;
+    border: 3px black;
+    border-radius: 5px;
+    
+}
+
+.gif-lumi {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.gif-lumi img {
+    width: 180px;
+    height: auto;
+    border-radius: 13px;
+    display: block;
+    
+}
+
+.tipo {
+   align-items: center;
+    background: #a70000;
+    padding: 8px 10px;
+    border-radius: 6px;
+    margin-bottom: 10px;
+}
