@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Pokemon - Brawl Stars</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+
+    <audio id="musica" loop>
+        <source src="03.%20Global%20Main%20Menu.mp3" type="audio/mpeg">
+    </audio>
+
+    <div class="box">
+
+        <div class="busca">
+            <input
+                type="text" id="input" placeholder="Digite o nome (ex: charizard)">
+            <button onclick="buscarPokemon()">Buscar</button>
+        </div>
+
+        <div class="topo">
+
+            <div class="nome">
+                <span id="nome-pokemon">...</span>
+            </div>
+
+            <div class="icone">
+                <img src="https://crystalpng.com/wp-content/uploads/2025/01/brawl-stars-logo-02.png" alt="Brawl logo">
+            </div>
+
+        </div>
+
+        <div class="meio">
+
+            <div class="foto">
+                <img id="imagem-pokemon" src="" alt="Pokemon">
+            </div>
+            
+
+            <div class="status">
+
+                <div class="linha">
+                    <div class="nome-status">ATAQUE</div>
+                    <div class="valor" id="ataque"></div>
+                </div>
+
+                <div class="linha">
+                    <div class="nome-status">DEFESA</div>
+                    <div class="valor" id="defesa"></div>
+                </div>
+
+                <div class="linha">
+                    <div class="nome-status">VELOCIDADE</div>
+                    <div class="valor" id="velocidade"></div>
+                </div>
+
+                <div class="linha">
+                    <div class="nome-status">SAUDE</div>
+                    <div class="valor" id="saude"></div>
+                </div>
+
+                <div class="tipo">
+                    <div class="nome-status">TIPO</div>
+                    <div class="valor" id="tipo"></div>
+      </div>
+     </div>
+    </div>
+   </div>
+
+    <div class="gif-lumi">
+        <img src="https://media.baamboozle.com/uploads/images/418946/71545bdd-18d2-4db3-81d1-911f926c3978.gif" alt="Lumi">
+    </div>
+
+    <script src="script.js"></script>
+
+</body>
+</html>
